@@ -14,24 +14,39 @@ An intelligent research and summarization tool that leverages Large Language Mod
 - 🧪 Built-in utilities for language detection, cleanup, performance timing, and formatted output.
 
 ---
+![Demo](marketai.png)
 
 ## 📁 Project Structure
 
 LLM_Summarizer_Project/
 ├── app/
+
 │ ├── init.py
+
 │ ├── ui.py # Streamlit user interface
+
 │ ├── api.py # (Optional) FastAPI endpoints
+
 │ ├── summarizer.py # LLM summarization logic (OpenAI GPT-4)
+
 │ ├── search.py # Google search API integration
+
 │ ├── extractor.py # Article text extraction
+
 │ ├── vector_store.py # FAISS-based summary storage and search
+
 │ └── utils.py # Utility functions (text cleaning, language detection...)
+
 ├── .env # Environment variables (API keys)
+
 ├── main.py # Main application entry point
+
 ├── requirements.txt # Python package dependencies
+
 ├── README.md # Project documentation
+
 └── scripts/
+
 └── setup_env.sh # Script to scaffold project folders and files
 
 ## 🔧 Requirements
